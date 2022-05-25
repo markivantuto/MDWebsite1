@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.min.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Company Name</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-top wrapper-1040px">
+            <a class="" href="index.html">
+                <img class="header-logo" src="src/img/logo.png" alt="COMPANY NAME SUB NAME">
+            </a>
+            <div class="header-phone">
+                <p class="header-phone-label">Talk to our Pharmacist</p>
+                <a class="header-phone-number" target="_blank" href="333-444-2313"><span class="header-phone-number-inner">333-444-2313</span></a>
+                <div class="social-media">
+                    <a class="" href="https://www.facebook.com/" target="_blank">
+                        <img class="social-media-icon" src="src/img/fb_icon.png" alt="Facebook icon">
+                    </a>
+                    <a class="" href="https://www.instagram.com/accounts/login/" target="_blank">
+                        <img class="social-media-icon" src="src/img/insta_icon.png" alt="Instagram icon">
+                    </a>
+                    <a class="" href="https://twitter.com/" target="_blank">
+                        <img class="social-media-icon" src="src/img/twitter_icon.png" alt="Twitter icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="weareopen-container">
+            <div class="weareopen-popup" id="weareopen_popup">
+                <p class="weareopen-text">We are open 24/7</p>
+                <span class="popup-close">&times;</span>
+            </div>
+        </div>
+        <div class="hamburger-icon-container">
+            <div onclick="menuBar()" class="hamburger-icon" id="hamburger_icon">☰</div>
+        </div>
+        <nav class="header-menu">
+            <div class="header-link-container wrapper-1040px"  id="header_link_container">
+                <a class="header-link-active" href="index.html">HOME</a>
+                <div class="about-us-container">
+                <a onclick="dropDown()" class="about-us-button" id="about_us">ABOUT US
+                <span class="fa fa-caret-down about-caret-down"></span></a>
+                    <div class="about-us-inner" id="about_us_inner">
+                        <a class="about-us-link" href="">History</a>
+                        <a class="about-us-link" href="">Mission</a>
+                    </div>
+                </div>
+                <a class="header-link" href="">SERVICES</a>
+                <a class="header-link" href="">VITAMIN</a>
+                <a class="header-link" href="">GENERIC PLAN</a>
+                <a class="header-link" href="">CONTACT US</a>
+                <a class="header-link" target="_blank" href="careers.html">CAREERS</a>
+            </div>
+        </nav>
+    </header>
+    <section class="banner">
+        <div class="banner-overlay"></div>
+        <div class="rslides">
+            <div class="banner-bg">
+                <img class="banner-bg-img" src="src/img/banner_img.jpg" alt="Banner Background">
+            </div>
+            <div class="banner-bg">
+                <img class="banner-bg-img banner-added-img" src="src/img/group_img.jpg" alt="Banner Background">
+            </div>
+            <div class="banner-bg">
+                <img class="banner-bg-img  banner-added-img" src="src/img/shakehand_img.jpg" alt="Banner Background">
+            </div>
+        </div>
+        <div class="banner-text-container">
+            <p class="banner-text">Your Rightful Partner</p>
+            <h2 class="banner-title">Towards Fast Recovery</h2>
+            <a class="banner-button" href="">LEARN MORE</a>
+        </div>
+    </section>
+    <section class="welcome wrapper-1040px">
+        <p class="welcome-to">WELCOME TO</p>
+        <h2 class="welcome-title">Company Name</h2>
+        <p class="welcome-description">Cillum elit pariatur ex incididunt, aute dolore lorem et
+        exercitation deserunt est non in. Do voluptate lorem mollit elit.
+        Ad labore excepteur, et ut deserunt voluptate aute elit dolore.
+        Ad enim sint enim. Do amet deserunt est in sit proident nulla ipsum reprehenderit et ea adipisicing sit.</p>
+        <div class="inquiries">
+            For inquiries, leave us your message on our <a class="inquiries-contact-us" href="">contact us</a> form.
+        </div>
+    </section>
+    <section class="youtube wrapper-1040px">
+        <iframe class="youtube-content" src="https://www.youtube.com/embed/w_N4LUwxRAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <section class="gallery wrapper-1040px">
+        <div class="gallery-card-container">
+            <div class="gallery-card"  data-inviewport="gallery-card">
+                <div class="gallery-card-image">
+                    <img class="" src="src/img/calling_woman.jpg" alt="Calling woman">
+                </div>
+                <div class="gallery-content">
+                    <h2 class="gallery-card-title">Talk to our Pharmacist</h2>
+                    <p class="gallery-card-text">Exercitation ut ut, ipsum incididunt
+                    non, mollit culpa aute ullamco uabore pariatur in nostrud quis.</p>
+                    <a class="gallery-card-button" href="">Click here</a>
+                </div>
+            </div>
+            <div class="gallery-card" data-inviewport="gallery-card">
+                <div class="gallery-card-image">
+                    <img class="" src="src/img/doctor.jpg" alt="Doctor">
+                </div>
+                <div class="gallery-content">
+                    <h2 class="gallery-card-title">Insurance Accepted</h2>
+                    <p class="gallery-card-text">Exercitation ut ut, ipsum incididunt
+                    non, mollit culpa aute ullamco uabore pariatur in nostrud quis.</p>
+                    <a class="gallery-card-button" href="">Click here</a>
+                </div>
+            </div>  
+        </div>
+        <div class="gallery-card-container">
+            <div class="gallery-card" data-inviewport="gallery-card">
+                <div class="gallery-card-image">
+                    <img class="" src="src/img/woman_thumbs_up.jpg" alt="Woman with thumbs up">
+                </div>
+                <div class="gallery-content">
+                    <h2 class="gallery-card-title">Testimonials From Clients</h2>
+                    <p class="gallery-card-text">Exercitation ut ut, ipsum incididunt
+                    non, mollit culpa aute ullamco uabore pariatur in nostrud quis.</p>
+                    <a class="gallery-card-button" href="">Click here</a>
+                </div>
+            </div>
+            <div class="gallery-card" data-inviewport="gallery-card">
+                <div class="gallery-card-image">
+                    <img class="" src="src/img/doctor_reading_receipt.jpg" alt="Doctor reading a receipt">
+                </div>
+                <div class="gallery-content">
+                    <h2 class="gallery-card-title">Talk to our Pharmacist</h2>
+                    <p class="gallery-card-text">Exercitation ut ut, ipsum incididunt
+                    non, mollit culpa aute ullamco uabore pariatur in nostrud quis.</p>
+                    <a class="gallery-card-button" href="">Click here</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="contact-container wrapper-1040px">
+            <!-- left -->
+            <div class="contact-left">
+                    <div class="office-hours">
+                        <h2 class="office-hours-title">Office Hours</h2>
+                        <p class="office-hours-description">Voluptate loreeste nulla duis et aliquip
+                        excepteur mollit d elit estrud.</p>
+                    </div>
+                    <div class="schedule">Monday - Friday : 9AM - 5PM
+                    Sat: 9AM - 3PM
+                    Sun: Closed</div>
+            </div>
+            <!-- right -->
+            <div class="contact-information">
+                <div class="contact-information-container">
+                    <h2 class="contact-information-title">Contact Information</h2>
+                    <div class="contact-information-text-container">
+                        <p class="contact-information-text-1">33344 Virginia Road
+                            Mckinney, Texas 23551
+                            <a class="view-map-text"  target="_blank" href="https://www.google.com/maps/place/W+Virginia+St,+McKinney,+TX,+USA/@33.1979587,-96.6296052,17z/data=!3m1!4b1!4m5!3m4!1s0x864c13b68d40bfb1:0xed33f3cd50adaf3e!8m2!3d33.1979542!4d-96.6274165">View Map & Directions »</a></p>
+                            <p class="contact-information-text-2">Phone: 333-444-2313
+                            Fax: 222-333-4444
+                            Email:  <a class="contact-information-email" target="_blank" href="mailto:yoursample@gmail.com">yoursample@gmail.com</a></p>
+                    </div>
+                </div>
+     
+            </div>
+        </div>
+        <p class="copyrights wrapper-1040px">© Copyright 2021  •   Company Name   
+            •  Web Design: Proweaver</p>
+    </section>
+    <section class="map wrapper-1040px">
+        <iframe class="map-content" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3338.615421086258!2d-96.62960518532437!3d33.1979586697108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c13b68d40bfb1%3A0xed33f3cd50adaf3e!2sW%20Virginia%20St%2C%20McKinney%2C%20TX%2C%20USA!5e0!3m2!1sen!2sph!4v1618810995660!5m2!1sen!2sph" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    <footer class="footer" id="footer">
+        <div class="wrapper-1040px">
+            <h2 class="footer-title">How can we help you today?</h2>
+            <nav class="footer-menu">
+                <div class="footer-link-container">
+                    <a class="footer-link-active" href="index.html">HOME</a>
+                    <!-- about us link -->
+                    <div class="footer-about-us-container">
+                        <a onclick="dropDownFooter()" class="footer-about-us-button" id="footer_about_us">ABOUT US
+                        <span class="fa fa-caret-down footer-about-caret-down"></span></a>
+                        <div class="footer-about-us-inner" id="footer_about_us_inner">
+                            <a class="footer-about-us-link" href="">History</a>
+                            <a class="footer-about-us-link" href="">Mission</a>
+                        </div>
+                    </div>
+                    <!-- <a class="footer-link" href="">ABOUT</a> -->
+                    <a class="footer-link" href="">SERVICES</a>
+                    <a class="footer-link" href="">VITAMIN</a>
+                    <a class="footer-link" href="">GENERIC PLAN</a>
+                    <a class="footer-link" href="">CONTACT US</a>
+                    <a class="footer-link footer-link-center" target="_blank" href="careers.html">CAREERS</a>
+                </div>
+            </nav>
+        </div>
+    </footer>
+</body>
+<script src="src/js/script.min.js"></script>
+<script src="src/js/script.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="src/js/responsiveslides.min.js"></script>
+<script>
+    $(".rslides").responsiveSlides({
+  auto: true,             // Boolean: Animate automatically, true or false
+  speed: 200,            // Integer: Speed of the transition, in milliseconds
+  timeout: 1000,          // Integer: Time between slide transitions, in milliseconds
+  pager: false,           // Boolean: Show pager, true or false
+  nav: false,             // Boolean: Show navigation, true or false
+  random: false,          // Boolean: Randomize the order of the slides, true or false
+  pause: false,           // Boolean: Pause on hover, true or false
+  pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+  prevText: "Previous",   // String: Text for the "previous" button
+  nextText: "Next",       // String: Text for the "next" button
+  maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
+  navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+  manualControls: "",     // Selector: Declare custom pager navigation
+  namespace: "rslides",   // String: Change the default namespace used
+  before: function(){},   // Function: Before callback
+  after: function(){}     // Function: After callback
+});
+  </script>
+</html>
