@@ -952,25 +952,7 @@ body {
     opacity: .8;
 }
 
-.copyrights {
-    font: 13px Open Sans;
-    color: #565656;
-    position: relative;
-    top: -63px;
-    left: 20px;
-    z-index: -1;
-}
-@media only screen and (max-width: 1010px) {
-    .copyrights {
-        position: static;
-        text-align: center;
-    }
-}
-@media only screen and (max-width: 600px) {
-    .copyrights {
-        font-size: 12px;
-    }
-}
+
 /* ==================================================================== */
 /* map */
 .map {
@@ -999,6 +981,36 @@ body {
         padding: 30px 20px;
     }
 }
+.footer_pc {}
+@media only screen and (max-width: 768px) {
+    .footer-pc {
+       display: none;
+    }
+}
+.footer-copyright {
+    display: block;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+@media only screen and (max-width: 768px) {
+    .footer-copyright {
+        font-size: 13px;
+        margin-top: 0;
+}
+}
+.copy-right-divider {
+    font: 17px "Lato-Regular";
+    color: #fff;
+    white-space: pre;
+  }
+  @media only screen and (max-width: 768px) {
+    .copy-right-divider {
+      margin: 0;
+      font-size: 13px;
+    }
+  }
+  
 .footer-link-container-height {
     padding: 30px 20px 120px;
 }
@@ -1051,7 +1063,9 @@ body {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    margin-left: 10px;
 }
+
 @media only screen and (max-width: 600px) {
     .footer-link, .footer-about-us-button {
         font-size: 14px;
